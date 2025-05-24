@@ -1,0 +1,68 @@
+body{
+    background-color: #FBDB93;
+    color: #8A2D3B;
+}
+section{
+    padding: 5rem;
+}
+h1{
+    margin-left: 45%;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin-left: -10%;
+}
+ul{
+    margin-left: 40%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#meuNome{
+    margin-bottom: 1rem;
+}
+#firstBtn{
+    margin-left: 30rem;
+}
+.btns{
+    background-color: #BE5B50;
+    color: #8A2D3B;
+    margin-left: 10px;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+.btns:hover{
+    color: #FBDB93;
+    text-decoration: none;
+}
+#fotoMinha{
+    max-width: 20%;
+    height: 10%;
+    margin-left: 45%;
+    border-radius: 10px;
+}
+.introducao p{
+    width: 20%;
+}
+#InitPage h4{
+    margin-left: 43%;
+}
+#InitPage h3{
+    margin-left: 35%;
+    margin-right: 25%;
+}
+
+#carrossel4-Slides{
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 20rem;
+}
+.sobreMim p{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#contatos{
+    background-color: #BE5B50;
+}

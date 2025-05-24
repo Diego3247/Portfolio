@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+<!-- Importa a biblioteca jQuery (versão leve/slim), necessária para o funcionamento de componentes interativos do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Importa o Popper.js, uma biblioteca que ajuda no posicionamento correto de elementos como menus dropdown e tooltips no Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Importa o JavaScript do Bootstrap versão 4.5.2, que ativa os componentes interativos como carrossel, modal, botão colapsável etc. -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <Header>
+        <h1 id="meuNome">Diego dos Santos Duque</h1>
+        
+    </Header>
+        <nav class="menu"><!--Organizar os itens-->
+            <a id="firstBtn" class="btns" href="#InitPage">Página inicial</a> <!--Item 1 do Menu--> 
+            <a class="btns" href="#sobreMim">Sobre mim</a> <!--Item 2 do Menu--> 
+            <a class="btns" href="#projetos">Projetos</a> <!--Item 3 do Menu--> 
+            <a class="btns" href="#Habilidades">Habilidades</a> <!--Item 4 do Menu--> 
+            <a class="btns" href="#contatos">Contatos</a> <!--Item 5 do Menu-->
+        
+    </nav>
+    <section id="InitPage">
+      
+            <h4 class="InitPage">Desenvolvedor web| full-stack</h4>
+        <img id="fotoMinha" src="fotoMinha.jpeg" alt="Foto profissional e amigável, idealmente sorridente e com boa qualidade">
+
+        <h3 class="InitPage">Venha conhecer o meu portfólio, a área de começo de um grande programador</h3>
+    </section>
+    <section class="sobreMim">
+        <h1 class="sobreMim">Sobre mim</h1>
+        <p class="sobreMim">Terceiro ano do ensino médio, ainda não trabalho, aprendo rápido e tenho interesse na área de TI</p>
+    </section>
+    <section id="galeria">
+        <h1>Projetos</h1>
+        <div id="projetos">
+            <div id="carrossel4-Slides" class="carousel slide" data-ride="carousel" data-interval="3000">
+  <ol class="carousel-indicators">
+    <li data-target ="#carrossel4-Slides" data-slide-to="0" class="active"></li>
+    <li data-target ="#carrossel4-Slides" data-slide-to="1"></li>
+    <li data-target ="#carrossel4-Slides" data-slide-to="2"></li>
+    <li data-target ="#carrossel4-Slides" data-slide-to="3"></li>
+  </ol>
+ <div class="carousel-inner">
+   <div class="carousel-item active">
+     <img class="d-block w-100" style="height:500px;" src="download.png" alt="">
+     
+<div class="carousel-caption d-none d-md-block">
+  <h5 style="color: rgb(34, 24, 24)">Site das praias do Brasil</h5>
+  <p style="color: rgb(26, 16, 16)">Site criado com o objetivo de aprender algumas funções sobre o html e o css para crianção de página.</p>
+</div>
+</div>
+<!--Atributo carousel-item define cada slide individualmente-->
+   <div class="carousel-item">
+     <img class="d-block w-100" style="height:500px;" src="Sem título.png" alt="">
+<div class="carousel-caption d-none d-md-block">
+      <h5>O Olhar Selvagem</h5>
+      <p>Olhos de um predador prestes a matar sua presa</p>
+</div>
+   </div>
+ <!--Botões Next e Prev-->
+ <!--Botão Anterior (prev)-->
+  <a class="carousel-control-prev" href="#carrossel4-Slides" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+    </a>
+    <!--Botão Próximo-->
+  <a class="carousel-control-next" href="#carrossel4-Slides" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+    </a>
+</div>
+        </div>
+    </section>
+    <section id="Habilidades">
+        <h1>Habilidades</h1>
+        <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Trabalho em equipe</li>
+            <li>Adaptabilidade</li>
+            <li>Resolução de problemas</li>
+        </ul>
+    </section>
+    <section id="contatos">
+        <h1>Contatos</h1>
+        <p>LInkedIn: Diego dos Santos Duque</p>
+        <p>GitHub: Diego3247</p>
+        <p>E-mail profissional: fduque.999777@gmail.com</p>
+        <p>E-mail pessoal: fduque.9977@gmail.com</p>
+    </section>
+</body>
+</html>
